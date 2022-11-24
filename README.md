@@ -60,3 +60,20 @@ Navigator pada flutter serupa dengan implementasi stack. Sehingga jika melakukan
 4. Membuat file data untuk menampilkan data pada halaman data budget.
 5. Membuat file model untuk data yang ditampilkan pada halaman data budget.
 6. Melakukan add, commit, dan push untuk melakukan perubahan.
+
+## Tugas 9: Integrasi Web Service pada Flutter
+## Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya, apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?
+Bisa saja, namun lebih baik menggunakan model dikarenakan dengan model memudahkan pengerjaan dan strukturnya lebih rapih. Selain itu dapat memastikan juga tipe data setiap field model dengan jelas. 
+
+## Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
+FutureBuilder = Untuk mengkontruksi widget berdasarkan snapshot.
+
+## Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter.
+Dilakukan dengan fetch pada method yang ada pada file, kemudian data di convert berdasarkan kode yang berada di model file tersebut.
+
+## Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
+1. Membuat folder model dan page, model yang berisikan model dari watchlist dan page yang berisikan halaman.
+2. Membuat fungsi untuk mengambil datanya.
+3. Melakukan flutter pub add http
+4. Menambahkan halaman my watchlist pada drawer.
+5. Melakukan add commit dan push perubahan.
